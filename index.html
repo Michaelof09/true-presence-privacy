@@ -3,37 +3,65 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>True Presence privacy</title>
+    <title>True Presence — Privacy Policy</title>
     <style>
-      :root { color-scheme: light; font-family: Georgia, serif; }
-      body { margin: 0; background: #f7f7f5; color: #18212a; }
-      main { max-width: 680px; margin: 0 auto; padding: 64px 24px 80px; }
-      h1 { font-size: 42px; font-weight: 500; margin: 0 0 12px; }
-      h2 { font-size: 23px; font-weight: 500; margin: 34px 0 8px; }
-      p { font-size: 18px; line-height: 1.55; margin: 0 0 16px; }
-      a { color: #164d74; }
-      .date { color: #65727b; font: 15px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; }
+      :root { color-scheme: dark; font-family: Georgia, serif; }
+      body { margin: 0; background: #0e141b; color: #f3f6f8; }
+      main { max-width: 700px; margin: 0 auto; padding: 56px 24px 80px; }
+      h1 { font-size: 42px; line-height: 1; font-weight: 500; margin: 0 0 12px; }
+      h2 { font-size: 23px; line-height: 1.1; font-weight: 500; margin: 34px 0 8px; }
+      p, li { font-size: 18px; line-height: 1.55; }
+      p { margin: 0 0 16px; }
+      ul { margin: 0 0 16px; padding-left: 25px; }
+      li { margin: 0 0 7px; }
+      a { color: #f3f6f8; }
+      nav { display: flex; gap: 18px; margin: 0 0 46px; font: 14px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; }
+      nav a:first-child { text-decoration: none; }
+      .date { color: #aab6c0; font: 15px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; }
+      .note { color: #aab6c0; }
     </style>
   </head>
   <body>
     <main>
-      <h1>True Presence privacy</h1>
+      <nav aria-label="Legal"><a href="./">Privacy Policy</a><a href="./terms.html">Terms of Use</a></nav>
+      <h1>True Presence Privacy Policy</h1>
       <p class="date">Effective August 27, 2026</p>
 
-      <h2>Location</h2>
-      <p>True Presence uses your device location while the app is open to find a nearby mapped Catholic church. It sends a rounded location to public OpenStreetMap/Overpass services, calculates distance and direction on the device, and does not run location tracking in the background.</p>
+      <h2>1. Who this covers</h2>
+      <p>This policy explains how Mesh LLC (“Mesh,” “we,” “us,” or “our”) handles information in the True Presence mobile app. True Presence points your phone toward the nearest mapped Catholic church.</p>
 
-      <h2>What we keep</h2>
-      <p>The app has no account, ads, analytics, location history, or app server. It stores only the last church result on your device for a nearby offline fallback. Delete the app to remove that local data. You can turn off location access in iPhone Settings.</p>
+      <h2>2. Location and compass data</h2>
+      <p>When you tap Find nearest church, the app asks for permission to use your location while the app is open. It uses the current device location to search for a nearby mapped Catholic place of worship. The app rounds the latitude and longitude to five decimal places before sending the search request to a public OpenStreetMap/Overpass service. This remains location data that can identify an area of about a metre.</p>
+      <p>The app calculates distance, bearing, and compass alignment on your device. It does not send your compass heading to us. It does not request or use background location.</p>
 
-      <h2>Other services</h2>
-      <p>When you tap Open in Maps, Apple Maps receives the destination. Apple's privacy policy applies to that service. OpenStreetMap/Overpass is a public third-party service; its own logs and privacy rules apply to requests it receives.</p>
+      <h2>3. What the app stores</h2>
+      <p>There is no True Presence account, app server, advertising system, analytics service, or location history. The app stores the last church result on your device so it can offer a bounded offline fallback. That result may include the church name, map coordinates, address, distance, bearing, and map-data source. The app replaces the saved result when a new search succeeds. It does not build a history of your locations.</p>
+      <p>You can turn off location permission in iPhone Settings. Deleting the app normally removes its local data; iOS may preserve data when an app is offloaded.</p>
 
-      <h2>Map limits</h2>
-      <p>Map data may be incomplete or wrong. True Presence does not verify church hours, parish status, or tabernacle access.</p>
+      <h2>4. Third-party services</h2>
+      <ul>
+        <li><strong>OpenStreetMap and Overpass:</strong> the app sends the rounded search coordinates and query needed to find map features. These public services and their operators may keep request logs, including network information, under their own policies. See <a href="https://wiki.openstreetmap.org/wiki/Privacy_Policy">OpenStreetMap’s privacy policy</a> and the <a href="https://operations.osmfoundation.org/policies/nominatim/">OSM Foundation service policies</a>.</li>
+        <li><strong>Apple Maps or Google Maps:</strong> when you tap Open in Maps, the app opens the selected destination in the map service on your device. That provider’s privacy policy and terms apply to the request and your use of its app.</li>
+      </ul>
+      <p>We share only the information needed for these requested features. We do not ask these services to use your location for advertising or tracking. Their independent handling of request logs is governed by their own policies.</p>
 
-      <h2>Support</h2>
-      <p>For help, <a href="https://github.com/Michaelof09/true-presence-privacy/issues">open an issue on GitHub</a>.</p>
+      <h2>5. What we do not collect</h2>
+      <p>True Presence does not collect your name, email address, contacts, photos, messages, payment information, precise device identifiers, advertising identifier, app analytics, or crash reports. We do not sell personal information, use it for targeted advertising, or track you across apps or websites.</p>
+
+      <h2>6. Your choices and requests</h2>
+      <p>Location access is optional, but the main feature cannot work without it. You can deny or later revoke that permission. Because Mesh does not operate an account or app server for True Presence, Mesh has no cloud location history to export or delete. Requests about logs held by OpenStreetMap/Overpass or Apple Maps must be sent to the relevant provider.</p>
+      <p>For a question or privacy request for Mesh, email <a href="mailto:support@meshapp.us">support@meshapp.us</a> or <a href="https://github.com/Michaelof09/true-presence-privacy/issues">open a GitHub issue</a>. We will use the information in your message only to respond and handle the request.</p>
+
+      <h2>7. Children</h2>
+      <p>True Presence is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child sent personal information to Mesh, contact us at the address above.</p>
+
+      <h2>8. Security and changes</h2>
+      <p>We use reasonable safeguards for the app and the information handled by Mesh. No device, network, or service is completely secure. We may update this policy by posting a new version and effective date. The new policy applies from its effective date.</p>
+
+      <h2>9. Map data and attribution</h2>
+      <p>Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, available under the <a href="https://opendatacommons.org/licenses/odbl/">Open Data Commons Open Database License</a>. A map tag does not confirm that a church is open, that Mass is offered, or that a tabernacle is accessible.</p>
+
+      <p class="note">This policy describes the current True Presence app behavior as of the effective date.</p>
     </main>
   </body>
 </html>
